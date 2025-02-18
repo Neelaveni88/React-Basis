@@ -10,6 +10,7 @@ function App() {
   return (
     <>
       <SimpleCode/>
+<h1>App</h1>
     </>
   )
 }
