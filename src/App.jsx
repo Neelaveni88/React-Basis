@@ -11,6 +11,7 @@ function App() {
     <>
       <SimpleCode/>
 <h1>App</h1>
+<p>subHeading</p>
     </>
   )
 }
