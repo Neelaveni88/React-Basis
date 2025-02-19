@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import SimpleCode from './Components/SimpleCode'
+import AnniversaryCard from './Components/AnniversaryCard'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,8 +12,8 @@ function App() {
   return (
     <>
       <SimpleCode/>
-<h1>App</h1>
-<p>subHeading</p>
+     <AnniversaryCard/>
+
     </>
   )
 }

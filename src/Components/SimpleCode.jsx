@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const SimpleCode = ()  =>{
-    const [count, setCount] = useState();
+    const [count, setCount] = useState(0);
   return (
     <>
     <p>Count:{count}</p>
@@ -10,4 +10,4 @@ const SimpleCode = ()  =>{
   )
 }
 
-export default SimpleCode
+export default SimpleCode 
