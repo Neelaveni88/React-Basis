@@ -1,11 +1,12 @@
 import React from 'react'
+import WithAuthonication from './WithAuthonication';
 
 function AnniversaryCard() {
   return (
     <div>
       
         <h1>Happy Anniversary!</h1>
-        <p style={{color:"blue"}}>
+        <p>
           Wishing you both a lifetime of love, happiness, and endless beautiful memories. 
           Cheers to another amazing year together!
         </p>
@@ -17,4 +18,4 @@ function AnniversaryCard() {
       );
     }
 
-export default AnniversaryCard
+export default WithAuthonication(AnniversaryCard)
