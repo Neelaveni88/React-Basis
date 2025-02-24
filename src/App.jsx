@@ -10,15 +10,23 @@ import './App.css'
 // import AnniversaryCard from './Components/AnniversaryCard'
 // import UseRefForm from './Components/UseRef/UseRefForm'
 import "bootstrap/dist/css/bootstrap.min.css";
-import { FormProvider } from './Components/Revision/FormContext';
-import { Route, Routes } from 'react-router-dom';
-import Home from './Components/Revision/Home';
-import About from './Components/Revision/About';
-import NavBar from './Components/Revision/Navbar';
+import AxiosHome from './Components/Axios/AxiosHome';
+import AxiosAbout from './Components/Axios/AxiosAbout';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import AxiosNavbar from './Components/Axios/AxiosNavbar';
+
+
+
+
+// import { FormProvider } from './Components/Revision/FormContext';
+// import { Route, Routes } from 'react-router-dom';
+// import Home from './Components/Revision/Home';
+// import About from './Components/Revision/About';
+// import NavBar from './Components/Revision/Navbar';
 // // import SimpleCode from './Components/SimpleCode'
 // import AnniversaryCard from './Components/AnniversaryCard'
 // import UseRefForm from './Components/UseRef/UseRefForm'
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 // import { FormProvider } from './Components/Pages/Revision/FormContext'
 // import Home from './Components/Pages/Revision/Home'
 // import About from './Components/Pages/Revision/About'
@@ -37,16 +45,27 @@ function App() {
   return (
 
     <>
+   
       {/* <ToggleTheme/> */}
-     <FormProvider>
+     {/* <FormProvider>
       <NavBar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/About' element={<About/>}/>
       </Routes>
-     </FormProvider>
+     </FormProvider> */}
+      <Router>
+     <AxiosNavbar />
+    
+      <Routes>
+        <Route path="/" element={<AxiosHome />} />
+        <Route path="/Axios About" element={<AxiosAbout />} />
+      </Routes>
+      </Router>
 
-     
+  
+   
+
 
       {/* <SimpleCode/> */}
      {/* <AnniversaryCard/>
