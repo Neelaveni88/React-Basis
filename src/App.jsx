@@ -15,6 +15,22 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './Components/Revision/Home';
 import About from './Components/Revision/About';
 import NavBar from './Components/Revision/Navbar';
+// // import SimpleCode from './Components/SimpleCode'
+// import AnniversaryCard from './Components/AnniversaryCard'
+// import UseRefForm from './Components/UseRef/UseRefForm'
+import "bootstrap/dist/css/bootstrap.min.css";
+// import { FormProvider } from './Components/Pages/Revision/FormContext'
+// import Home from './Components/Pages/Revision/Home'
+// import About from './Components/Pages/Revision/About'
+// import NavBar from './Components/Pages/Revision/NavBar'
+
+
+// import NavBar from './Components/NavBar'
+// import Homes from "./Components/Pages/Homes"
+// import About from "./Components/Pages/About"
+// import Contact from "./Components/Pages/Contact"
+// import NotFound from './Components/Pages/NotFound'
+// import { Routes,Route } from 'react-router-dom'
 
 
 function App() {
